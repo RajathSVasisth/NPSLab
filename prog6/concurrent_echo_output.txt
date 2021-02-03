@@ -1,0 +1,42 @@
+################ Concurret echo server #################
+./serverecho 
+socket creation successful
+Bind successful
+Server listening....
+From client: address: 0.0.0.0 port: 0
+Client: Hi
+
+From client: address: 127.0.0.1 port: 36504
+Client: Hello
+
+From client: address: 0.0.0.0 port: 0
+Client: Hi
+
+From client: address: 127.0.0.1 port: 36506
+Client: Hello
+
+From client: address: 127.0.0.1 port: 36506
+Client: Welcome
+
+################# Client 1 ######################
+./clientecho 127.0.0.1
+Me: Hi
+From server: Hi
+
+Me: Hello
+From server: Hello
+
+Me: 
+
+################## Client 2 #####################
+./clientecho 127.0.0.1
+Me: Hi
+From server: Hi
+
+Me: Hello
+From server: Hello
+
+Me: Welcome
+From server: Welcome
+
+Me: exit

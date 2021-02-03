@@ -1,0 +1,43 @@
+Enter IP header information in 16 bit words
+Field 1
+1010
+Field 2
+0101
+Field 3
+1011
+Field 4
+1010
+Field 5
+1100
+Field 6
+1101
+Field 7
+1111
+Field 8
+1001
+Field 9
+0000
+
+ COmputed Checksum at sender 8bba
+Enter IP header information in 16 bit words
+Field 1
+1010
+Field 2
+0101
+Field 3
+1011
+Field 4
+1010
+Field 5
+1100
+Field 6
+1101
+Field 7
+1111
+Field 8
+1001
+Field 9
+0000
+
+ COmputed Checksum at receiver 8bba
+No error

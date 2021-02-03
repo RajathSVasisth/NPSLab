@@ -1,0 +1,37 @@
+############## UDP server #############
+./serverudp 
+socket creation successful
+Bind successful
+From client 0.0.0.0:0
+Hi
+
+From client 0.0.0.0:0
+Hello
+
+From client 0.0.0.0:0
+Hi
+
+From client 0.0.0.0:0
+Hello from client 2
+
+From client 0.0.0.0:0
+Hello from client 1
+
+############### Client 1 ###################
+./clientudp 127.0.0.1
+Me: Hi
+From server: Hi
+
+Me: Hello
+From server: Hello
+
+Me: Hello from client 1
+From server: Hello from client 1
+
+############# Client 2 ########################
+./clientudp 127.0.0.1
+Me: Hi
+From server: Hi
+
+Me: Hello from client 2
+From server: Hello from client 2

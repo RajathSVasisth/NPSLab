@@ -1,0 +1,22 @@
+################### Iterative server ##################
+./server
+Socket created successfully
+Binded successfully
+Listen successful
+Accept successful
+Server listening for other connections
+message received from client: Hi
+
+message received from client: Hello
+
+
+##################### Client ##################
+./client 127.0.0.1
+Me: Hi
+From server: Hi
+
+
+Me: Hello
+From server: 
+
+Me: exit
